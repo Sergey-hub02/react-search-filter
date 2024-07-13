@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ChangeEvent } from 'react';
 import { names } from './names';
+import './App.css';
 
 const App = () => {
     let [namesList, setNamesList] = useState(names);
@@ -23,7 +24,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <form action="">
+            <form>
                 <div className="field-box">
                     <input
                         id="name"
